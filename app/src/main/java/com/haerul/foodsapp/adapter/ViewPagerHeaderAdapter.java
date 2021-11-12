@@ -8,6 +8,8 @@ package com.haerul.foodsapp.adapter;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,6 +63,7 @@ public class ViewPagerHeaderAdapter extends PagerAdapter {
 
         String strMealThumb = meals.get(position).getStrMealThumb();
         Picasso.get().load(strMealThumb).into(mealThumb);
+        Log.w("TAG", "instantiateItem: "+strMealThumb );
 
         String strMealName = meals.get(position).getStrMeal();
         mealName.setText(strMealName);

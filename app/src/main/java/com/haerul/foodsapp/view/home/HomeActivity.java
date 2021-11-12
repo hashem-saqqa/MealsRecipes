@@ -1,13 +1,8 @@
-/*-----------------------------------------------------------------------------
- - Developed by Haerul Muttaqin                                               -
- - Last modified 3/17/19 5:24 AM                                              -
- - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
- - Copyright (c) 2019. All rights reserved                                    -
- -----------------------------------------------------------------------------*/
 package com.haerul.foodsapp.view.home;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -70,6 +65,7 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
 
     @Override
     public void setMeal(List<Meals.Meal> meal) {
+        Log.d("TAG", "setCategory: inside category");
         ViewPagerHeaderAdapter headerAdapter = new ViewPagerHeaderAdapter(meal, this);
         viewPagerMeal.setAdapter(headerAdapter);
         viewPagerMeal.setPadding(20, 0, 150, 0);
@@ -88,6 +84,7 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
 
     @Override
     public void setCategory(List<Categories.Category> category) {
+        Log.d("TAG", "setCategory: inside category");
         RecyclerViewHomeAdapter homeAdapter = new RecyclerViewHomeAdapter(category, this);
         recyclerViewCategory.setAdapter(homeAdapter);
         GridLayoutManager layoutManager = new GridLayoutManager(this, 3,
