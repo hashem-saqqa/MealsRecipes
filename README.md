@@ -2,10 +2,10 @@
 # FoodsApp
 
 
-![alt text](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meals%20Home.jpeg)
+![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meals%20Home.jpeg | width=100)
 
-![alt text](https://github.com/hashem-saqqa/FoodsApp/blob/master/Category.jpeg)
+![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Category.jpeg)
 
-![alt_text](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meal%20Details.jpeg)
+![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meal%20Details.jpeg)
 
-![alt_text](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meal%20Details_2.jpeg)
+![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meal%20Details_2.jpeg)
