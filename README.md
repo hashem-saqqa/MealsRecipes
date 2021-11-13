@@ -1,8 +1,8 @@
 
 # FoodsApp
 
-
-![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meals%20Home.jpeg =250x250)
+<img width="200" alt="portfolio_view" src="https://github.com/hashem-saqqa/FoodsApp/blob/master/Meals%20Home.jpeg">
+![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Meals%20Home.jpeg)
 
 ![](https://github.com/hashem-saqqa/FoodsApp/blob/master/Category.jpeg)
 
