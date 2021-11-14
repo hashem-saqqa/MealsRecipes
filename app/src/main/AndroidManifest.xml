@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.haerul.foodsapp">
+    package="com.haerul.MealsRecipes">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/meals_recipes_background"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/meals_recipes_background"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+
+        >
         <activity
-            android:name=".view.home.HomeActivity"
+            android:name="com.haerul.MealsRecipes.view.home.HomeActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,12 +24,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.category.CategoryActivity"
+            android:name="com.haerul.MealsRecipes.view.category.CategoryActivity"
             android:label="Category"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".view.detail.DetailActivity"
+            android:name="com.haerul.MealsRecipes.view.detail.DetailActivity"
             android:theme="@style/AppTheme.NoActionBar"
 
 
